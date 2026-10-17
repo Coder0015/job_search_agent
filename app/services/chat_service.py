@@ -23,11 +23,28 @@ class ChatService:
         self,
         session_service: SessionService,
         resume_repository: ResumeRepository,
-        agent: Any,
+        agent_provider: Any,
+        checkpointer: Any,
     ):
         self.session_service = session_service
         self.resume_repository = resume_repository
-        self.agent = agent
+        # 按 resume_id 懒加载 Agent，系统提示词中已注入对应简历。
+        self.agent_provider = agent_provider
+        # 会话关闭时需要同时清除对应的对话历史。
+        self.checkpointer = checkpointer
+
+    def close_session(self, session_id: str) -> None:
+        """彻底关闭会话：删除会话、对话历史和缓存的 Agent。
+
+        切换简历后旧对话不应残留；再次选择同一份简历应开始全新对话。
+        """
+        session = self.session_service.get_session(session_id)
+        if session is None:
+            raise ValueError("会话不存在或已过期")
+
+        self.session_service.delete_session(session_id)
+        self.checkpointer.delete_thread(session.thread_id)
+        self.agent_provider.invalidate(session.resume_id)
 
     def chat(self, session_id: str, message: str) -> ChatResult:
         """使用指定会话调用 Agent，并提取本轮岗位工具结果。"""
@@ -43,7 +60,9 @@ class ChatService:
         if resume is None:
             raise ValueError("会话绑定的简历不存在")
 
-        state_before = self.agent.get_state(
+        agent = self._get_agent(session.resume_id)
+
+        state_before = agent.get_state(
             {"configurable": {"thread_id": session.thread_id}}
         )
         message_count_before = len(
@@ -51,7 +70,7 @@ class ChatService:
         )
 
         prompt = self._build_user_message(resume, cleaned_message)
-        result = self.agent.invoke(
+        result = agent.invoke(
             {"messages": [{"role": "user", "content": prompt}]},
             config={"configurable": {"thread_id": session.thread_id}},
         )
@@ -96,6 +115,12 @@ class ChatService:
             yield _sse({"type": "error", "message": "会话绑定的简历不存在"})
             return
 
+        try:
+            agent = self._get_agent(session.resume_id)
+        except ValueError as exc:
+            yield _sse({"type": "error", "message": str(exc)})
+            return
+
         prompt = self._build_user_message(resume, cleaned_message)
         config = {"configurable": {"thread_id": session.thread_id}}
 
@@ -103,7 +128,7 @@ class ChatService:
         seen_ids: set[str] = set()
 
         try:
-            for chunk in self.agent.stream(
+            for chunk in agent.stream(
                 {"messages": [{"role": "user", "content": prompt}]},
                 config=config,
                 stream_mode="messages",
@@ -140,6 +165,10 @@ class ChatService:
             yield _sse({"type": "jobs", "jobs": jobs})
 
         yield _sse({"type": "done"})
+
+    def _get_agent(self, resume_id: str) -> Any:
+        """获取绑定了指定简历上下文的 Agent（不存在时自动创建）。"""
+        return self.agent_provider.get_agent(resume_id)
 
     @staticmethod
     def _build_user_message(resume, message: str) -> str:

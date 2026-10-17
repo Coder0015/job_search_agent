@@ -43,8 +43,18 @@ createApp({
     async selectResume(resume) {
       if (this.loadingChat) return;
       this.resumeError = ''; this.chatError = '';
-      this.selectedResume = resume; this.sessionId = ''; this.messages = [];
+
+      // 切换简历：先销毁旧会话（含对话历史），再创建新会话
+      const previousSessionId = this.sessionId;
+      this.sessionId = '';
+      this.messages = [];
+      this.selectedResume = resume;
+
       try {
+        if (previousSessionId) {
+          await fetch(`/api/chat/sessions/${previousSessionId}`, { method: 'DELETE' });
+        }
+
         const r = await fetch('/api/chat/sessions', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },

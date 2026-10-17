@@ -15,7 +15,7 @@ from app.services.job_service import JobService
 from app.services.chat_service import ChatService
 from app.services.session_service import SessionService
 from langgraph.checkpoint.memory import MemorySaver
-from app.agents.factory.deepseek_agent import create_job_agent
+from app.agents.factory.agent_provider import AgentProvider
 
 
 @asynccontextmanager
@@ -31,17 +31,19 @@ async def lifespan(app: FastAPI):
     )
     print("简历和岗位数据加载完成")
 
-    print("正在创建求职助手...")
+    print("正在初始化求职助手...")
     app.state.checkpointer = MemorySaver()
-    app.state.agent = create_job_agent(
+    app.state.agent_provider = AgentProvider(
         job_service=app.state.job_service,
+        resume_repository=app.state.resume_repository,
         checkpointer=app.state.checkpointer,
     )
     app.state.session_service = SessionService()
     app.state.chat_service = ChatService(
         session_service=app.state.session_service,
         resume_repository=app.state.resume_repository,
-        agent=app.state.agent,
+        agent_provider=app.state.agent_provider,
+        checkpointer=app.state.checkpointer,
     )
 
     yield

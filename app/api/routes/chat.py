@@ -1,7 +1,13 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Response
 from fastapi.responses import StreamingResponse
 
-from app.api.dependencies import get_chat_service, get_resume_repository, get_session_service
+from app.agents.factory.agent_provider import AgentProvider
+from app.api.dependencies import (
+    get_agent_provider,
+    get_chat_service,
+    get_resume_repository,
+    get_session_service,
+)
 from app.repositories.resume_repository import ResumeRepository
 from app.schemas.chat import ChatRequest, ChatResponse, CreateSessionRequest, CreateSessionResponse
 from app.services.chat_service import ChatService
@@ -16,16 +22,33 @@ def create_chat_session(
     request: CreateSessionRequest,
     resume_repository: ResumeRepository = Depends(get_resume_repository),
     session_service: SessionService = Depends(get_session_service),
+    agent_provider: AgentProvider = Depends(get_agent_provider),
 ) -> CreateSessionResponse:
-    """创建绑定指定简历的聊天会话。"""
+    """创建绑定指定简历的聊天会话，并按需创建该简历的 Agent。"""
     if resume_repository.get_by_id(request.resume_id) is None:
         raise HTTPException(status_code=404, detail="未找到对应的求职者简历")
+
+    # 选定简历后再创建 Agent，避免应用启动时预先构建所有简历的 Agent。
+    agent_provider.get_agent(request.resume_id)
 
     session = session_service.create_session(request.resume_id)
     return CreateSessionResponse(
         session_id=session.session_id,
         resume_id=session.resume_id,
     )
+
+
+@chat_router.delete("/sessions/{session_id}", status_code=204)
+def delete_chat_session(
+    session_id: str,
+    service: ChatService = Depends(get_chat_service),
+) -> Response:
+    """关闭会话，同时清除对话历史和缓存的 Agent。"""
+    try:
+        service.close_session(session_id)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    return Response(status_code=204)
 
 
 @chat_router.post("", response_model=ChatResponse)

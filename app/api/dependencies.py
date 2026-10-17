@@ -1,4 +1,5 @@
 from fastapi import Request
+from app.agents.factory.agent_provider import AgentProvider
 from app.repositories.resume_repository import ResumeRepository
 
 from app.repositories.job_repository import JobRepository
@@ -27,6 +28,10 @@ def get_job_service(
 
 def get_session_service(request: Request) -> SessionService:
     return request.app.state.session_service
+
+
+def get_agent_provider(request: Request) -> AgentProvider:
+    return request.app.state.agent_provider
 
 
 def get_chat_service(request: Request) -> ChatService:
