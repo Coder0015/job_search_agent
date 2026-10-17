@@ -1,0 +1,72 @@
+[
+  {
+    "id": "resume_sales_001",
+    "name": "林晓",
+    "education": "大专",
+    "years_of_experience": 3,
+    "skills": [
+      "客户沟通",
+      "客户维护",
+      "需求分析",
+      "跨部门协调",
+      "Excel基础"
+    ],
+    "work_experience": [
+      {
+        "company": "某消费品企业（虚构）",
+        "position": "销售专员",
+        "duration": "约3年",
+        "responsibilities": [
+          "负责客户沟通与日常维护",
+          "了解客户需求并跟进业务进展",
+          "协调内部人员处理客户问题",
+          "整理销售数据和客户资料"
+        ]
+      }
+    ],
+    "career_summary": "具备约3年销售工作经验，擅长沟通、客户维护和业务协调。希望尝试非销售类岗位，减少销售指标带来的压力，更关注工作稳定性。"
+  },
+  {
+    "id": "resume_graduate_001",
+    "name": "陈悦",
+    "education": "本科，市场营销专业",
+    "years_of_experience": 0,
+    "skills": [
+      "办公软件",
+      "文案整理",
+      "活动组织",
+      "沟通协调",
+      "基础数据分析"
+    ],
+    "work_experience": [],
+    "career_summary": "应届毕业生，具备市场营销专业背景和校园活动组织经验，目前缺少正式工作经历。希望在北海寻找第一份工作，对具体岗位方向还不够明确。"
+  },
+  {
+    "id": "resume_developer_001",
+    "name": "周凯",
+    "education": "本科，计算机科学与技术专业",
+    "years_of_experience": 2,
+    "skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "RESTful API",
+      "Git",
+      "大模型应用开发"
+    ],
+    "work_experience": [
+      {
+        "company": "某软件公司（虚构）",
+        "position": "Python开发工程师",
+        "duration": "约2年",
+        "responsibilities": [
+          "开发和维护Python后端接口",
+          "使用FastAPI构建业务服务",
+          "编写SQL查询并处理业务数据",
+          "参与大模型应用功能开发和接口集成"
+        ]
+      }
+    ],
+    "career_summary": "具备约2年Python后端开发经验，熟悉接口开发和业务数据处理，希望寻找Python后端或AI应用开发相关岗位。"
+  }
+]

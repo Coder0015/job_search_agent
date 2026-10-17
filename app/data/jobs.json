@@ -1,0 +1,2762 @@
+[
+  {
+    "id": "job_001",
+    "title": "销售代表",
+    "company": "北海演示企业001（虚构）",
+    "city": "北海市海城区",
+    "category": "销售",
+    "salary_min": 3500,
+    "salary_max": 7000,
+    "description": "负责客户开发、产品介绍、需求跟进及销售记录维护。",
+    "requirements": [
+      "沟通表达清晰",
+      "愿意学习产品知识",
+      "能够按流程跟进客户"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_002",
+    "title": "门店销售顾问",
+    "company": "北海演示企业002（虚构）",
+    "city": "北海市银海区",
+    "category": "销售",
+    "salary_min": 3200,
+    "salary_max": 6500,
+    "description": "在门店接待顾客，介绍商品特点，协助完成成交与售后衔接。",
+    "requirements": [
+      "服务意识良好",
+      "能适应门店排班",
+      "有零售经验者优先"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_003",
+    "title": "客户经理",
+    "company": "北海演示企业003（虚构）",
+    "city": "北海市铁山港区",
+    "category": "销售",
+    "salary_min": 5000,
+    "salary_max": 10000,
+    "description": "维护现有客户关系，了解客户需求，协调内部资源推进合作。",
+    "requirements": [
+      "具备客户维护经验",
+      "有较强沟通协调能力",
+      "能使用办公软件整理客户资料"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_004",
+    "title": "电话销售专员",
+    "company": "北海演示企业004（虚构）",
+    "city": "北海市合浦县",
+    "category": "销售",
+    "salary_min": 3500,
+    "salary_max": 8000,
+    "description": "通过电话联系意向客户，介绍服务内容并记录沟通结果。",
+    "requirements": [
+      "普通话表达清楚",
+      "能接受电话沟通工作",
+      "具备基本电脑操作能力"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_005",
+    "title": "销售内勤",
+    "company": "北海演示企业005（虚构）",
+    "city": "北海市海城区",
+    "category": "销售",
+    "salary_min": 3200,
+    "salary_max": 4800,
+    "description": "整理销售订单、更新客户资料、协助业务人员准备报价及报表。",
+    "requirements": [
+      "熟悉常用办公软件",
+      "做事细致",
+      "具备跨部门沟通能力"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_006",
+    "title": "渠道销售专员",
+    "company": "北海演示企业006（虚构）",
+    "city": "北海市银海区",
+    "category": "销售",
+    "salary_min": 4500,
+    "salary_max": 9000,
+    "description": "协助拓展合作渠道，维护合作伙伴，跟踪活动执行和销售数据。",
+    "requirements": [
+      "具备商务沟通能力",
+      "能接受必要的本地出行",
+      "有渠道相关经验者优先"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_007",
+    "title": "房产经纪顾问",
+    "company": "北海演示企业007（虚构）",
+    "city": "北海市铁山港区",
+    "category": "销售",
+    "salary_min": 4000,
+    "salary_max": 12000,
+    "description": "了解客户租售需求，维护房源信息，安排看房并跟进交易流程。",
+    "requirements": [
+      "服务意识良好",
+      "沟通积极",
+      "愿意学习行业流程"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_008",
+    "title": "汽车销售顾问",
+    "company": "北海演示企业008（虚构）",
+    "city": "北海市合浦县",
+    "category": "销售",
+    "salary_min": 4000,
+    "salary_max": 11000,
+    "description": "接待到店客户，介绍车型配置，安排试乘试驾并跟进客户意向。",
+    "requirements": [
+      "对汽车产品有兴趣",
+      "具备客户沟通能力",
+      "有相关经验者优先"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_009",
+    "title": "企业客户销售",
+    "company": "北海演示企业009（虚构）",
+    "city": "北海市海城区",
+    "category": "销售",
+    "salary_min": 5000,
+    "salary_max": 10000,
+    "description": "面向企业客户介绍产品方案，整理需求并协助推动合同流程。",
+    "requirements": [
+      "有B端客户沟通经验",
+      "方案表达清楚",
+      "能够维护客户跟进记录"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "2年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_010",
+    "title": "销售主管",
+    "company": "北海演示企业010（虚构）",
+    "city": "北海市银海区",
+    "category": "销售",
+    "salary_min": 6500,
+    "salary_max": 12000,
+    "description": "协助制定销售计划，跟进团队目标完成情况，并辅导成员提升业务能力。",
+    "requirements": [
+      "有团队协作或带教经验",
+      "具备数据分析意识",
+      "沟通和执行能力较强"
+    ],
+    "benefits": [
+      "岗位培训",
+      "绩效奖金（以演示设定为准）",
+      "休息安排以岗位排班为准"
+    ],
+    "experience_requirement": "3年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_011",
+    "title": "在线客服专员",
+    "company": "北海演示企业011（虚构）",
+    "city": "北海市铁山港区",
+    "category": "客服",
+    "salary_min": 3000,
+    "salary_max": 4500,
+    "description": "通过在线渠道回复客户咨询，记录问题并按流程转交处理。",
+    "requirements": [
+      "打字熟练",
+      "耐心细致",
+      "具备基本电脑操作能力"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_012",
+    "title": "售后客服",
+    "company": "北海演示企业012（虚构）",
+    "city": "北海市合浦县",
+    "category": "客服",
+    "salary_min": 3200,
+    "salary_max": 5000,
+    "description": "受理售后问题，跟进处理进度，协调相关人员给客户反馈。",
+    "requirements": [
+      "沟通态度友好",
+      "能按流程记录问题",
+      "有客服经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_013",
+    "title": "电话客服",
+    "company": "北海演示企业013（虚构）",
+    "city": "北海市海城区",
+    "category": "客服",
+    "salary_min": 3000,
+    "salary_max": 4800,
+    "description": "接听客户来电，解答常见问题并准确登记服务记录。",
+    "requirements": [
+      "普通话清晰",
+      "具备耐心",
+      "能够使用电脑录入信息"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_014",
+    "title": "客服组长",
+    "company": "北海演示企业014（虚构）",
+    "city": "北海市银海区",
+    "category": "客服",
+    "salary_min": 4500,
+    "salary_max": 7000,
+    "description": "协助管理客服排班、服务质量和复杂问题升级处理。",
+    "requirements": [
+      "有客服经验",
+      "具备协调能力",
+      "能整理基础服务数据"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "2年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_015",
+    "title": "订单处理客服",
+    "company": "北海演示企业015（虚构）",
+    "city": "北海市铁山港区",
+    "category": "客服",
+    "salary_min": 3200,
+    "salary_max": 4800,
+    "description": "核对订单信息，处理修改、取消及物流咨询并跟进异常订单。",
+    "requirements": [
+      "做事认真",
+      "信息录入准确",
+      "具备基本沟通能力"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_016",
+    "title": "平台商家客服",
+    "company": "北海演示企业016（虚构）",
+    "city": "北海市合浦县",
+    "category": "客服",
+    "salary_min": 3300,
+    "salary_max": 5000,
+    "description": "为平台商家解答后台使用问题，协助记录和处理运营工单。",
+    "requirements": [
+      "学习能力较强",
+      "会使用办公软件",
+      "有电商或平台客服经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_017",
+    "title": "会员服务专员",
+    "company": "北海演示企业017（虚构）",
+    "city": "北海市海城区",
+    "category": "客服",
+    "salary_min": 3500,
+    "salary_max": 5200,
+    "description": "为会员提供权益咨询、续费提醒和问题跟进服务。",
+    "requirements": [
+      "有服务意识",
+      "沟通表达清楚",
+      "能够维护客户信息"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_018",
+    "title": "投诉处理专员",
+    "company": "北海演示企业018（虚构）",
+    "city": "北海市银海区",
+    "category": "客服",
+    "salary_min": 3800,
+    "salary_max": 6000,
+    "description": "受理升级投诉，梳理事实和处理记录，推动问题闭环。",
+    "requirements": [
+      "情绪稳定",
+      "善于倾听和协调",
+      "书面表达清楚"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_019",
+    "title": "旅游咨询客服",
+    "company": "北海演示企业019（虚构）",
+    "city": "北海市铁山港区",
+    "category": "客服",
+    "salary_min": 3200,
+    "salary_max": 5000,
+    "description": "回答旅游产品、预订流程和出行安排相关咨询。",
+    "requirements": [
+      "对本地旅游信息有兴趣",
+      "服务意识良好",
+      "能适应轮班安排"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_020",
+    "title": "客户服务质检",
+    "company": "北海演示企业020（虚构）",
+    "city": "北海市合浦县",
+    "category": "客服",
+    "salary_min": 3800,
+    "salary_max": 6000,
+    "description": "抽查服务记录和沟通质量，整理常见问题并提出改进建议。",
+    "requirements": [
+      "观察细致",
+      "能按标准记录问题",
+      "有客服经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "服务流程培训",
+      "排班休息（以演示设定为准）"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_021",
+    "title": "行政专员",
+    "company": "北海演示企业021（虚构）",
+    "city": "北海市海城区",
+    "category": "行政文员",
+    "salary_min": 3500,
+    "salary_max": 5000,
+    "description": "负责办公用品、会议安排、文件流转及日常行政事务。",
+    "requirements": [
+      "熟悉办公软件",
+      "做事细致有条理",
+      "具备沟通协调能力"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_022",
+    "title": "前台接待",
+    "company": "北海演示企业022（虚构）",
+    "city": "北海市银海区",
+    "category": "行政文员",
+    "salary_min": 3000,
+    "salary_max": 4200,
+    "description": "负责来访接待、电话转接、访客登记和会议室安排。",
+    "requirements": [
+      "形象整洁",
+      "服务意识良好",
+      "普通话表达清楚"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_023",
+    "title": "文员",
+    "company": "北海演示企业023（虚构）",
+    "city": "北海市铁山港区",
+    "category": "行政文员",
+    "salary_min": 2800,
+    "salary_max": 4000,
+    "description": "负责资料整理、数据录入、文件归档和部门日常事务支持。",
+    "requirements": [
+      "熟悉常用办公软件",
+      "细心耐心",
+      "有责任心"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_024",
+    "title": "人事助理",
+    "company": "北海演示企业024（虚构）",
+    "city": "北海市合浦县",
+    "category": "行政文员",
+    "salary_min": 3200,
+    "salary_max": 4800,
+    "description": "协助招聘邀约、入离职资料整理、考勤统计和员工档案维护。",
+    "requirements": [
+      "具备保密意识",
+      "信息整理能力较好",
+      "沟通表达清晰"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_025",
+    "title": "招聘专员",
+    "company": "北海演示企业025（虚构）",
+    "city": "北海市海城区",
+    "category": "行政文员",
+    "salary_min": 3800,
+    "salary_max": 6500,
+    "description": "根据用人需求发布职位、筛选简历、安排面试并跟进招聘进度。",
+    "requirements": [
+      "沟通和执行能力较强",
+      "能维护招聘记录",
+      "有招聘经验者优先"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_026",
+    "title": "档案管理员",
+    "company": "北海演示企业026（虚构）",
+    "city": "北海市银海区",
+    "category": "行政文员",
+    "salary_min": 3000,
+    "salary_max": 4300,
+    "description": "负责纸质及电子档案分类、编号、借阅登记和定期盘点。",
+    "requirements": [
+      "细致严谨",
+      "能遵守资料管理规范",
+      "具备基础电脑操作能力"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_027",
+    "title": "采购助理",
+    "company": "北海演示企业027（虚构）",
+    "city": "北海市铁山港区",
+    "category": "行政文员",
+    "salary_min": 3500,
+    "salary_max": 5200,
+    "description": "协助询价、下单、采购资料整理及到货情况跟踪。",
+    "requirements": [
+      "具备沟通协调能力",
+      "熟悉表格操作",
+      "做事有条理"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_028",
+    "title": "部门助理",
+    "company": "北海演示企业028（虚构）",
+    "city": "北海市合浦县",
+    "category": "行政文员",
+    "salary_min": 3500,
+    "salary_max": 5200,
+    "description": "协助部门日程安排、会议纪要、文件整理和跨部门事项跟进。",
+    "requirements": [
+      "书面表达能力良好",
+      "熟悉办公软件",
+      "执行力较强"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_029",
+    "title": "数据录入员",
+    "company": "北海演示企业029（虚构）",
+    "city": "北海市海城区",
+    "category": "行政文员",
+    "salary_min": 2800,
+    "salary_max": 4000,
+    "description": "根据业务单据录入和核对数据，发现异常时及时反馈。",
+    "requirements": [
+      "录入准确率高",
+      "耐心细致",
+      "能遵守数据保密要求"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_030",
+    "title": "办公室主任助理",
+    "company": "北海演示企业030（虚构）",
+    "city": "北海市银海区",
+    "category": "行政文员",
+    "salary_min": 4500,
+    "salary_max": 7000,
+    "description": "协助安排综合事务、跟进重点事项、整理会议材料和工作报告。",
+    "requirements": [
+      "组织协调能力较强",
+      "有文档撰写经验",
+      "时间管理能力良好"
+    ],
+    "benefits": [
+      "办公技能培训",
+      "节假日安排以演示设定为准",
+      "工作流程清晰"
+    ],
+    "experience_requirement": "2年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_031",
+    "title": "餐厅服务员",
+    "company": "北海演示企业031（虚构）",
+    "city": "北海市铁山港区",
+    "category": "服务业",
+    "salary_min": 2800,
+    "salary_max": 4200,
+    "description": "负责顾客接待、点单上菜、桌面整理及营业区域清洁。",
+    "requirements": [
+      "服务态度良好",
+      "能适应站立工作",
+      "可配合门店排班"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_032",
+    "title": "收银员",
+    "company": "北海演示企业032（虚构）",
+    "city": "北海市合浦县",
+    "category": "服务业",
+    "salary_min": 2800,
+    "salary_max": 4000,
+    "description": "负责收银结算、票据处理和每日交接核对。",
+    "requirements": [
+      "认真细致",
+      "具备基本计算能力",
+      "有收银经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_033",
+    "title": "便利店店员",
+    "company": "北海演示企业033（虚构）",
+    "city": "北海市海城区",
+    "category": "服务业",
+    "salary_min": 2800,
+    "salary_max": 4200,
+    "description": "负责商品补货、陈列、收银和门店日常卫生维护。",
+    "requirements": [
+      "诚实守信",
+      "服务意识良好",
+      "能适应轮班"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_034",
+    "title": "咖啡师",
+    "company": "北海演示企业034（虚构）",
+    "city": "北海市银海区",
+    "category": "服务业",
+    "salary_min": 3000,
+    "salary_max": 5000,
+    "description": "制作咖啡和饮品，维护操作台卫生并协助顾客选择产品。",
+    "requirements": [
+      "对饮品制作有兴趣",
+      "重视食品卫生",
+      "有相关经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_035",
+    "title": "烘焙学徒",
+    "company": "北海演示企业035（虚构）",
+    "city": "北海市铁山港区",
+    "category": "服务业",
+    "salary_min": 2600,
+    "salary_max": 4000,
+    "description": "协助准备原料、完成基础烘焙操作及设备清洁。",
+    "requirements": [
+      "愿意学习烘焙技能",
+      "能遵守食品安全要求",
+      "工作认真"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_036",
+    "title": "客房服务员",
+    "company": "北海演示企业036（虚构）",
+    "city": "北海市合浦县",
+    "category": "服务业",
+    "salary_min": 2800,
+    "salary_max": 4500,
+    "description": "负责客房清洁、用品补充和房态反馈，按标准完成整理。",
+    "requirements": [
+      "做事细致",
+      "体力状况适合岗位工作",
+      "有酒店经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_037",
+    "title": "酒店前台",
+    "company": "北海演示企业037（虚构）",
+    "city": "北海市海城区",
+    "category": "服务业",
+    "salary_min": 3000,
+    "salary_max": 4800,
+    "description": "办理入住和退房、解答住客咨询并协助处理预订信息。",
+    "requirements": [
+      "沟通表达清楚",
+      "熟悉基础电脑操作",
+      "能适应轮班"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_038",
+    "title": "生鲜理货员",
+    "company": "北海演示企业038（虚构）",
+    "city": "北海市银海区",
+    "category": "服务业",
+    "salary_min": 2800,
+    "salary_max": 4300,
+    "description": "负责生鲜商品整理、补货、保鲜检查和区域清洁。",
+    "requirements": [
+      "能适应早晚班",
+      "有食品安全意识",
+      "做事勤快"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_039",
+    "title": "商场导购",
+    "company": "北海演示企业039（虚构）",
+    "city": "北海市铁山港区",
+    "category": "服务业",
+    "salary_min": 3000,
+    "salary_max": 5500,
+    "description": "接待顾客、介绍商品、整理陈列并协助完成销售服务。",
+    "requirements": [
+      "沟通积极",
+      "服务意识良好",
+      "有零售经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_040",
+    "title": "洗衣房工作人员",
+    "company": "北海演示企业040（虚构）",
+    "city": "北海市合浦县",
+    "category": "服务业",
+    "salary_min": 2800,
+    "salary_max": 4200,
+    "description": "负责衣物分类、洗烘设备操作、折叠和交接登记。",
+    "requirements": [
+      "遵守操作规程",
+      "认真负责",
+      "能适应重复性工作"
+    ],
+    "benefits": [
+      "岗前培训",
+      "员工餐或餐补（以演示设定为准）",
+      "排班休息以门店安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_041",
+    "title": "运营专员",
+    "company": "北海演示企业041（虚构）",
+    "city": "北海市海城区",
+    "category": "运营",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "协助制定运营计划，跟进活动执行，整理运营数据并提出改进建议。",
+    "requirements": [
+      "熟悉表格工具",
+      "具备沟通协调能力",
+      "有运营相关经验者优先"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_042",
+    "title": "电商运营助理",
+    "company": "北海演示企业042（虚构）",
+    "city": "北海市银海区",
+    "category": "运营",
+    "salary_min": 3500,
+    "salary_max": 5500,
+    "description": "协助商品上架、活动配置、订单数据整理和日常店铺维护。",
+    "requirements": [
+      "熟悉基础办公软件",
+      "学习能力较强",
+      "对电商运营有兴趣"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_043",
+    "title": "用户运营专员",
+    "company": "北海演示企业043（虚构）",
+    "city": "北海市铁山港区",
+    "category": "运营",
+    "salary_min": 4500,
+    "salary_max": 7500,
+    "description": "协助策划用户活动、分析用户反馈并维护用户社群。",
+    "requirements": [
+      "有用户服务意识",
+      "具备活动执行能力",
+      "能整理基础数据"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_044",
+    "title": "内容运营",
+    "company": "北海演示企业044（虚构）",
+    "city": "北海市合浦县",
+    "category": "运营",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "description": "规划内容主题、编辑发布内容并跟踪阅读互动表现。",
+    "requirements": [
+      "文字表达能力良好",
+      "具备选题意识",
+      "能使用常见内容平台"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_045",
+    "title": "门店运营",
+    "company": "北海演示企业045（虚构）",
+    "city": "北海市海城区",
+    "category": "运营",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "协助巡店、检查服务标准、跟进门店问题和运营数据。",
+    "requirements": [
+      "执行力强",
+      "能进行现场沟通",
+      "有零售或服务行业经验者优先"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_046",
+    "title": "平台运营专员",
+    "company": "北海演示企业046（虚构）",
+    "city": "北海市银海区",
+    "category": "运营",
+    "salary_min": 4500,
+    "salary_max": 7500,
+    "description": "维护平台内容和业务规则，处理运营反馈并跟踪事项进度。",
+    "requirements": [
+      "逻辑清晰",
+      "擅长信息整理",
+      "具备跨团队协作能力"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_047",
+    "title": "活动运营",
+    "company": "北海演示企业047（虚构）",
+    "city": "北海市铁山港区",
+    "category": "运营",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "description": "协助策划线上或线下活动，跟进物料、执行进度和效果复盘。",
+    "requirements": [
+      "组织能力较强",
+      "沟通协调顺畅",
+      "能适应活动期间的工作安排"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_048",
+    "title": "社群运营",
+    "company": "北海演示企业048（虚构）",
+    "city": "北海市合浦县",
+    "category": "运营",
+    "salary_min": 3500,
+    "salary_max": 6000,
+    "description": "维护用户社群，发布活动信息、回答常见问题并整理用户反馈。",
+    "requirements": [
+      "沟通活跃但有分寸",
+      "具备内容整理能力",
+      "有社群经验者优先"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_049",
+    "title": "商家运营",
+    "company": "北海演示企业049（虚构）",
+    "city": "北海市海城区",
+    "category": "运营",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "description": "协助商家了解平台规则，跟进资料维护、活动报名和经营问题。",
+    "requirements": [
+      "服务意识良好",
+      "具备商家沟通能力",
+      "熟悉办公软件"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_050",
+    "title": "数据运营助理",
+    "company": "北海演示企业050（虚构）",
+    "city": "北海市银海区",
+    "category": "运营",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "整理业务指标、维护数据报表并协助发现运营异常。",
+    "requirements": [
+      "Excel使用熟练",
+      "逻辑清楚",
+      "有基础数据分析能力"
+    ],
+    "benefits": [
+      "业务培训",
+      "团队协作环境（演示设定）",
+      "绩效制度以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_051",
+    "title": "Python开发工程师",
+    "company": "北海演示企业051（虚构）",
+    "city": "北海市铁山港区",
+    "category": "技术开发",
+    "salary_min": 7000,
+    "salary_max": 13000,
+    "description": "负责Python后端接口开发、业务逻辑实现和现有服务维护。",
+    "requirements": [
+      "熟悉Python基础",
+      "了解RESTful API",
+      "有数据库使用经验"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_052",
+    "title": "Java开发工程师",
+    "company": "北海演示企业052（虚构）",
+    "city": "北海市合浦县",
+    "category": "技术开发",
+    "salary_min": 7000,
+    "salary_max": 14000,
+    "description": "参与Java业务服务开发、接口联调、缺陷修复和代码维护。",
+    "requirements": [
+      "熟悉Java基础",
+      "了解常用后端开发模式",
+      "具备SQL基础"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_053",
+    "title": "前端开发工程师",
+    "company": "北海演示企业053（虚构）",
+    "city": "北海市海城区",
+    "category": "技术开发",
+    "salary_min": 6500,
+    "salary_max": 12000,
+    "description": "负责网页功能开发、页面交互实现和前后端接口联调。",
+    "requirements": [
+      "掌握HTML、CSS和JavaScript",
+      "了解HTTP接口",
+      "具备调试问题的能力"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_054",
+    "title": "测试工程师",
+    "company": "北海演示企业054（虚构）",
+    "city": "北海市银海区",
+    "category": "技术开发",
+    "salary_min": 5000,
+    "salary_max": 9000,
+    "description": "编写测试用例，执行功能测试并跟踪缺陷修复情况。",
+    "requirements": [
+      "逻辑清晰",
+      "能编写测试用例",
+      "了解接口测试者优先"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_055",
+    "title": "运维工程师",
+    "company": "北海演示企业055（虚构）",
+    "city": "北海市铁山港区",
+    "category": "技术开发",
+    "salary_min": 6000,
+    "salary_max": 11000,
+    "description": "协助维护应用运行环境、监控服务状态并处理常见故障。",
+    "requirements": [
+      "熟悉Linux基础操作",
+      "了解网络和服务部署",
+      "具备问题排查意识"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_056",
+    "title": "数据分析专员",
+    "company": "北海演示企业056（虚构）",
+    "city": "北海市合浦县",
+    "category": "技术开发",
+    "salary_min": 5000,
+    "salary_max": 9000,
+    "description": "整理业务数据，编写分析报表并向业务团队解释主要发现。",
+    "requirements": [
+      "熟悉Excel",
+      "了解SQL",
+      "具备数据表达能力"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_057",
+    "title": "AI应用开发助理",
+    "company": "北海演示企业057（虚构）",
+    "city": "北海市海城区",
+    "category": "技术开发",
+    "salary_min": 7000,
+    "salary_max": 14000,
+    "description": "协助开发大模型应用功能，整理提示词、接口调用和测试案例。",
+    "requirements": [
+      "掌握Python基础",
+      "了解HTTP API",
+      "对LLM应用开发有兴趣"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_058",
+    "title": "数据库助理工程师",
+    "company": "北海演示企业058（虚构）",
+    "city": "北海市银海区",
+    "category": "技术开发",
+    "salary_min": 5500,
+    "salary_max": 9500,
+    "description": "协助维护数据库对象、编写查询语句并排查常见数据问题。",
+    "requirements": [
+      "熟悉SQL基础",
+      "理解数据表关系",
+      "做事严谨"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_059",
+    "title": "技术支持工程师",
+    "company": "北海演示企业059（虚构）",
+    "city": "北海市铁山港区",
+    "category": "技术开发",
+    "salary_min": 4500,
+    "salary_max": 8000,
+    "description": "解答客户产品使用问题，复现故障并与研发人员协作定位。",
+    "requirements": [
+      "有耐心",
+      "具备基础技术理解能力",
+      "沟通和记录能力较好"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_060",
+    "title": "软件实施工程师",
+    "company": "北海演示企业060（虚构）",
+    "city": "北海市合浦县",
+    "category": "技术开发",
+    "salary_min": 5000,
+    "salary_max": 9000,
+    "description": "协助客户进行系统配置、功能验证、使用培训和问题反馈。",
+    "requirements": [
+      "具备沟通协调能力",
+      "能学习软件产品",
+      "可接受必要的本地出差"
+    ],
+    "benefits": [
+      "技术学习机会（演示设定）",
+      "项目协作经验",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_061",
+    "title": "平面设计师",
+    "company": "北海演示企业061（虚构）",
+    "city": "北海市海城区",
+    "category": "设计",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "description": "根据业务需求制作海报、宣传物料、活动页面配图等视觉内容。",
+    "requirements": [
+      "具备设计作品集",
+      "熟悉常用设计软件",
+      "理解基础版式和色彩"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_062",
+    "title": "UI设计师",
+    "company": "北海演示企业062（虚构）",
+    "city": "北海市银海区",
+    "category": "设计",
+    "salary_min": 6000,
+    "salary_max": 11000,
+    "description": "参与产品界面设计、组件规范整理和设计走查。",
+    "requirements": [
+      "具备UI作品集",
+      "理解交互基础",
+      "能与产品和开发协作"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_063",
+    "title": "电商美工",
+    "company": "北海演示企业063（虚构）",
+    "city": "北海市铁山港区",
+    "category": "设计",
+    "salary_min": 3500,
+    "salary_max": 6500,
+    "description": "制作商品主图、详情页和营销图片，维护页面视觉一致性。",
+    "requirements": [
+      "熟悉图像处理工具",
+      "审美和排版能力良好",
+      "能按时交付设计"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_064",
+    "title": "摄影助理",
+    "company": "北海演示企业064（虚构）",
+    "city": "北海市合浦县",
+    "category": "设计",
+    "salary_min": 2800,
+    "salary_max": 4500,
+    "description": "协助布置拍摄场景、整理器材、管理素材并配合现场拍摄。",
+    "requirements": [
+      "对摄影有兴趣",
+      "执行力强",
+      "能够配合拍摄安排"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_065",
+    "title": "短视频剪辑师",
+    "company": "北海演示企业065（虚构）",
+    "city": "北海市海城区",
+    "category": "设计",
+    "salary_min": 4000,
+    "salary_max": 7500,
+    "description": "根据脚本剪辑短视频，完成基础字幕、配乐和画面整理。",
+    "requirements": [
+      "熟悉剪辑软件",
+      "有作品样例",
+      "理解视频节奏"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_066",
+    "title": "插画设计师",
+    "company": "北海演示企业066（虚构）",
+    "city": "北海市银海区",
+    "category": "设计",
+    "salary_min": 4500,
+    "salary_max": 8000,
+    "description": "根据主题制作插画素材，配合运营和设计需求调整风格。",
+    "requirements": [
+      "具备插画作品集",
+      "风格适应能力较强",
+      "能按规范交付文件"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_067",
+    "title": "包装设计师",
+    "company": "北海演示企业067（虚构）",
+    "city": "北海市铁山港区",
+    "category": "设计",
+    "salary_min": 4500,
+    "salary_max": 8000,
+    "description": "负责产品包装视觉设计、印前文件整理及打样沟通。",
+    "requirements": [
+      "了解印刷和包装流程",
+      "熟悉设计软件",
+      "做事细致"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_068",
+    "title": "空间设计助理",
+    "company": "北海演示企业068（虚构）",
+    "city": "北海市合浦县",
+    "category": "设计",
+    "salary_min": 3500,
+    "salary_max": 6000,
+    "description": "协助完成空间测量、方案绘图、材料整理和项目文件归档。",
+    "requirements": [
+      "了解制图软件者优先",
+      "有空间想象能力",
+      "具备团队协作意识"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_069",
+    "title": "品牌视觉设计",
+    "company": "北海演示企业069（虚构）",
+    "city": "北海市海城区",
+    "category": "设计",
+    "salary_min": 5500,
+    "salary_max": 9500,
+    "description": "围绕品牌规范制作宣传视觉，并参与视觉系统维护。",
+    "requirements": [
+      "有品牌类作品集",
+      "理解视觉规范",
+      "具备跨部门沟通能力"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "2年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_070",
+    "title": "摄影摄像师",
+    "company": "北海演示企业070（虚构）",
+    "city": "北海市银海区",
+    "category": "设计",
+    "salary_min": 4000,
+    "salary_max": 8000,
+    "description": "负责活动或产品拍摄、设备维护、素材备份与基础后期处理。",
+    "requirements": [
+      "熟悉拍摄设备",
+      "具备构图意识",
+      "有作品案例"
+    ],
+    "benefits": [
+      "作品实践机会",
+      "团队协作环境（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_071",
+    "title": "会计助理",
+    "company": "北海演示企业071（虚构）",
+    "city": "北海市铁山港区",
+    "category": "财务会计",
+    "salary_min": 3200,
+    "salary_max": 4800,
+    "description": "协助整理票据、录入凭证、核对账目和归档财务资料。",
+    "requirements": [
+      "财务或会计相关专业优先",
+      "细致严谨",
+      "熟悉办公软件"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_072",
+    "title": "出纳",
+    "company": "北海演示企业072（虚构）",
+    "city": "北海市合浦县",
+    "category": "财务会计",
+    "salary_min": 3500,
+    "salary_max": 5000,
+    "description": "负责日常收付款登记、银行业务办理和资金流水核对。",
+    "requirements": [
+      "遵守财务制度",
+      "数字敏感",
+      "具备责任心"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_073",
+    "title": "财务会计",
+    "company": "北海演示企业073（虚构）",
+    "city": "北海市海城区",
+    "category": "财务会计",
+    "salary_min": 4500,
+    "salary_max": 7000,
+    "description": "负责账务处理、凭证审核、月度报表和相关资料整理。",
+    "requirements": [
+      "具备会计基础",
+      "熟悉财务软件者优先",
+      "工作认真负责"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "2年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_074",
+    "title": "应收应付会计",
+    "company": "北海演示企业074（虚构）",
+    "city": "北海市银海区",
+    "category": "财务会计",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "核对应收应付明细、跟进账款进度并与业务部门对账。",
+    "requirements": [
+      "熟悉表格操作",
+      "沟通协调能力良好",
+      "账务处理细致"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_075",
+    "title": "成本会计",
+    "company": "北海演示企业075（虚构）",
+    "city": "北海市铁山港区",
+    "category": "财务会计",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "description": "整理成本数据、核对成本归集并协助分析成本差异。",
+    "requirements": [
+      "有成本核算经验",
+      "数据敏感",
+      "熟悉财务流程"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "2年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_076",
+    "title": "税务助理",
+    "company": "北海演示企业076（虚构）",
+    "city": "北海市合浦县",
+    "category": "财务会计",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "协助整理涉税资料、核对应税数据和办理基础申报工作。",
+    "requirements": [
+      "会计相关专业优先",
+      "关注资料准确性",
+      "有学习意愿"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_077",
+    "title": "审计助理",
+    "company": "北海演示企业077（虚构）",
+    "city": "北海市海城区",
+    "category": "财务会计",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "description": "协助收集审计资料、整理底稿并进行基础数据核对。",
+    "requirements": [
+      "逻辑清晰",
+      "具备文档整理能力",
+      "财会或审计相关专业优先"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_078",
+    "title": "财务文员",
+    "company": "北海演示企业078（虚构）",
+    "city": "北海市银海区",
+    "category": "财务会计",
+    "salary_min": 3000,
+    "salary_max": 4500,
+    "description": "负责财务单据整理、报销材料初核和文件归档。",
+    "requirements": [
+      "细心守序",
+      "具备基本电脑操作能力",
+      "有保密意识"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_079",
+    "title": "预算专员",
+    "company": "北海演示企业079（虚构）",
+    "city": "北海市铁山港区",
+    "category": "财务会计",
+    "salary_min": 5000,
+    "salary_max": 8000,
+    "description": "协助编制预算、跟踪执行情况并整理差异分析报表。",
+    "requirements": [
+      "熟悉Excel函数",
+      "具备数据分析意识",
+      "沟通能力良好"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "2年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_080",
+    "title": "财务主管",
+    "company": "北海演示企业080（虚构）",
+    "city": "北海市合浦县",
+    "category": "财务会计",
+    "salary_min": 6500,
+    "salary_max": 11000,
+    "description": "组织日常财务工作，复核账务与报表并协调相关业务流程。",
+    "requirements": [
+      "有财务管理经验",
+      "熟悉会计相关流程",
+      "责任心强"
+    ],
+    "benefits": [
+      "业务流程培训",
+      "岗位技能提升机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "3年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_081",
+    "title": "仓库管理员",
+    "company": "北海演示企业081（虚构）",
+    "city": "北海市海城区",
+    "category": "物流仓储",
+    "salary_min": 3200,
+    "salary_max": 4800,
+    "description": "负责货物收发、库存盘点、库位整理和出入库记录维护。",
+    "requirements": [
+      "做事细致",
+      "具备基础电脑操作能力",
+      "能配合仓库作业安排"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_082",
+    "title": "分拣员",
+    "company": "北海演示企业082（虚构）",
+    "city": "北海市银海区",
+    "category": "物流仓储",
+    "salary_min": 3000,
+    "salary_max": 5000,
+    "description": "根据订单要求分拣货物、核对数量并整理待发货商品。",
+    "requirements": [
+      "认真负责",
+      "能适应一定体力工作",
+      "遵守现场安全要求"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_083",
+    "title": "物流调度助理",
+    "company": "北海演示企业083（虚构）",
+    "city": "北海市铁山港区",
+    "category": "物流仓储",
+    "salary_min": 3800,
+    "salary_max": 6000,
+    "description": "协助安排配送任务、记录车辆状态并跟进异常订单。",
+    "requirements": [
+      "协调能力良好",
+      "会使用办公软件",
+      "反应及时"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_084",
+    "title": "配送员",
+    "company": "北海演示企业084（虚构）",
+    "city": "北海市合浦县",
+    "category": "物流仓储",
+    "salary_min": 3500,
+    "salary_max": 7000,
+    "description": "按路线完成配送任务，核对收货信息并反馈配送异常。",
+    "requirements": [
+      "熟悉本地道路者优先",
+      "服务态度良好",
+      "符合岗位出行要求"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_085",
+    "title": "快递客服",
+    "company": "北海演示企业085（虚构）",
+    "city": "北海市海城区",
+    "category": "物流仓储",
+    "salary_min": 3000,
+    "salary_max": 4500,
+    "description": "查询快件状态、处理派送咨询并登记异常件信息。",
+    "requirements": [
+      "沟通清晰",
+      "能熟练录入信息",
+      "有服务意识"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_086",
+    "title": "采购跟单",
+    "company": "北海演示企业086（虚构）",
+    "city": "北海市银海区",
+    "category": "物流仓储",
+    "salary_min": 3500,
+    "salary_max": 5500,
+    "description": "跟进采购订单交期、核对送货资料并协调到货问题。",
+    "requirements": [
+      "沟通协调能力较好",
+      "熟悉表格操作",
+      "跟进意识强"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_087",
+    "title": "库存控制专员",
+    "company": "北海演示企业087（虚构）",
+    "city": "北海市铁山港区",
+    "category": "物流仓储",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "监控库存变化、分析差异原因并协助优化补货计划。",
+    "requirements": [
+      "数据敏感",
+      "熟悉Excel",
+      "有库存管理经验者优先"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_088",
+    "title": "叉车司机",
+    "company": "北海演示企业088（虚构）",
+    "city": "北海市合浦县",
+    "category": "物流仓储",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "按作业要求进行货物装卸和转运，检查设备并遵守安全规范。",
+    "requirements": [
+      "持有效相关操作资格者优先",
+      "安全意识强",
+      "服从现场调度"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_089",
+    "title": "运输专员",
+    "company": "北海演示企业089（虚构）",
+    "city": "北海市海城区",
+    "category": "物流仓储",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "整理运输计划、跟踪货运进度并核对相关单据。",
+    "requirements": [
+      "具备沟通协调能力",
+      "能处理基础表格",
+      "有物流经验者优先"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_090",
+    "title": "仓储组长",
+    "company": "北海演示企业090（虚构）",
+    "city": "北海市银海区",
+    "category": "物流仓储",
+    "salary_min": 5000,
+    "salary_max": 7500,
+    "description": "协助安排仓库作业、检查库存准确性并跟进现场安全与效率。",
+    "requirements": [
+      "有仓储现场经验",
+      "具备组织协调能力",
+      "执行力较强"
+    ],
+    "benefits": [
+      "岗前安全培训",
+      "作业流程培训",
+      "排班休息以现场安排为准"
+    ],
+    "experience_requirement": "2年以上",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_091",
+    "title": "课程顾问",
+    "company": "北海演示企业091（虚构）",
+    "city": "北海市铁山港区",
+    "category": "教育培训",
+    "salary_min": 3500,
+    "salary_max": 8000,
+    "description": "向咨询者介绍课程安排、了解学习需求并跟进报名咨询。",
+    "requirements": [
+      "表达清楚",
+      "服务意识良好",
+      "有教育行业经验者优先"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_092",
+    "title": "幼儿园保育员",
+    "company": "北海演示企业092（虚构）",
+    "city": "北海市合浦县",
+    "category": "教育培训",
+    "salary_min": 2800,
+    "salary_max": 4200,
+    "description": "协助做好幼儿日常照护、活动准备和教室卫生管理。",
+    "requirements": [
+      "有耐心和责任心",
+      "重视儿童安全",
+      "相关从业资格者优先"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_093",
+    "title": "小学学科教师",
+    "company": "北海演示企业093（虚构）",
+    "city": "北海市海城区",
+    "category": "教育培训",
+    "salary_min": 4500,
+    "salary_max": 8000,
+    "description": "按教学计划开展课程，完成备课、课堂教学和学生学习反馈。",
+    "requirements": [
+      "具备相应学科能力",
+      "表达和组织能力良好",
+      "相关教师资格者优先"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_094",
+    "title": "英语培训教师",
+    "company": "北海演示企业094（虚构）",
+    "city": "北海市银海区",
+    "category": "教育培训",
+    "salary_min": 4500,
+    "salary_max": 8500,
+    "description": "开展英语课程教学，准备教学材料并跟进学生学习情况。",
+    "requirements": [
+      "英语基础扎实",
+      "具备课堂组织能力",
+      "有教学经验者优先"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_095",
+    "title": "教务专员",
+    "company": "北海演示企业095（虚构）",
+    "city": "北海市铁山港区",
+    "category": "教育培训",
+    "salary_min": 3200,
+    "salary_max": 5000,
+    "description": "安排课程和教室、维护学员资料并协助处理教学事务。",
+    "requirements": [
+      "组织能力较好",
+      "熟悉办公软件",
+      "做事细致"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_096",
+    "title": "学习管理师",
+    "company": "北海演示企业096（虚构）",
+    "city": "北海市合浦县",
+    "category": "教育培训",
+    "salary_min": 3500,
+    "salary_max": 6000,
+    "description": "跟进学员学习进度，协调老师和学员沟通并记录学习反馈。",
+    "requirements": [
+      "沟通耐心",
+      "有跟进意识",
+      "具备基础信息整理能力"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_097",
+    "title": "职业培训讲师",
+    "company": "北海演示企业097（虚构）",
+    "city": "北海市海城区",
+    "category": "教育培训",
+    "salary_min": 6000,
+    "salary_max": 10000,
+    "description": "根据课程大纲开展职业技能培训，更新课程材料并评估学习效果。",
+    "requirements": [
+      "具备相关专业经验",
+      "授课表达清晰",
+      "能独立准备课件"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "3年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_098",
+    "title": "招生咨询专员",
+    "company": "北海演示企业098（虚构）",
+    "city": "北海市银海区",
+    "category": "教育培训",
+    "salary_min": 3200,
+    "salary_max": 6500,
+    "description": "回答招生咨询、整理意向学员信息并跟进报名流程。",
+    "requirements": [
+      "沟通表达清楚",
+      "耐心负责",
+      "熟悉基本办公软件"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_099",
+    "title": "课程研发助理",
+    "company": "北海演示企业099（虚构）",
+    "city": "北海市铁山港区",
+    "category": "教育培训",
+    "salary_min": 4000,
+    "salary_max": 6500,
+    "description": "协助整理课程内容、制作学习资料和收集教学反馈。",
+    "requirements": [
+      "文字表达能力良好",
+      "具备资料检索能力",
+      "有学习设计经验者优先"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "本科及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_100",
+    "title": "托管班老师",
+    "company": "北海演示企业100（虚构）",
+    "city": "北海市合浦县",
+    "category": "教育培训",
+    "salary_min": 3000,
+    "salary_max": 5000,
+    "description": "负责学生课后看护、作业辅导、秩序维护和家校信息沟通。",
+    "requirements": [
+      "有责任心",
+      "具备基础学科辅导能力",
+      "重视学生安全"
+    ],
+    "benefits": [
+      "教研或岗位培训",
+      "教学资料支持（演示设定）",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_101",
+    "title": "物业客服专员",
+    "company": "北海演示企业101（虚构）",
+    "city": "北海市海城区",
+    "category": "物业安保",
+    "salary_min": 3000,
+    "salary_max": 4500,
+    "description": "受理住户报修和咨询，跟踪工单处理进度并维护服务记录。",
+    "requirements": [
+      "服务意识良好",
+      "沟通耐心",
+      "能使用办公软件"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_102",
+    "title": "小区秩序维护员",
+    "company": "北海演示企业102（虚构）",
+    "city": "北海市银海区",
+    "category": "物业安保",
+    "salary_min": 3000,
+    "salary_max": 4500,
+    "description": "负责出入口管理、巡查记录和公共区域秩序维护。",
+    "requirements": [
+      "责任心强",
+      "遵守现场管理要求",
+      "能适应轮班"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_103",
+    "title": "物业维修工",
+    "company": "北海演示企业103（虚构）",
+    "city": "北海市铁山港区",
+    "category": "物业安保",
+    "salary_min": 3500,
+    "salary_max": 5500,
+    "description": "处理公共区域基础维修、设备巡检和报修事项。",
+    "requirements": [
+      "具备基础维修技能",
+      "安全意识强",
+      "有相关工作经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_104",
+    "title": "保洁员",
+    "company": "北海演示企业104（虚构）",
+    "city": "北海市合浦县",
+    "category": "物业安保",
+    "salary_min": 2600,
+    "salary_max": 3800,
+    "description": "负责指定区域日常清洁、垃圾分类和清洁工具维护。",
+    "requirements": [
+      "认真负责",
+      "遵守卫生标准",
+      "能完成岗位常规体力工作"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_105",
+    "title": "停车场管理员",
+    "company": "北海演示企业105（虚构）",
+    "city": "北海市海城区",
+    "category": "物业安保",
+    "salary_min": 3000,
+    "salary_max": 4300,
+    "description": "协助车辆进出管理、停车引导和停车记录核对。",
+    "requirements": [
+      "服务态度良好",
+      "具备基本电脑操作能力",
+      "能适应轮班"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_106",
+    "title": "物业管家",
+    "company": "北海演示企业106（虚构）",
+    "city": "北海市银海区",
+    "category": "物业安保",
+    "salary_min": 3500,
+    "salary_max": 5500,
+    "description": "维护住户关系，协调物业服务事项并跟进投诉和报修闭环。",
+    "requirements": [
+      "沟通协调能力较好",
+      "服务意识强",
+      "有物业经验者优先"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_107",
+    "title": "工程维修主管",
+    "company": "北海演示企业107（虚构）",
+    "city": "北海市铁山港区",
+    "category": "物业安保",
+    "salary_min": 5500,
+    "salary_max": 8500,
+    "description": "安排维修班组工作，跟进设施设备维护计划和安全检查。",
+    "requirements": [
+      "有设备维护经验",
+      "具备现场管理能力",
+      "安全意识强"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "3年以上",
+    "education_requirement": "中专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_108",
+    "title": "园区安全员",
+    "company": "北海演示企业108（虚构）",
+    "city": "北海市合浦县",
+    "category": "物业安保",
+    "salary_min": 3200,
+    "salary_max": 4800,
+    "description": "执行园区巡查、访客登记、异常情况报告和安全制度检查。",
+    "requirements": [
+      "观察力较好",
+      "责任心强",
+      "能遵守值班安排"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "高中及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_109",
+    "title": "绿化养护员",
+    "company": "北海演示企业109（虚构）",
+    "city": "北海市海城区",
+    "category": "物业安保",
+    "salary_min": 2800,
+    "salary_max": 4200,
+    "description": "负责绿化浇灌、修剪、除草及养护区域清洁。",
+    "requirements": [
+      "愿意从事户外工作",
+      "熟悉基础绿化操作者优先",
+      "做事认真"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "学历不限",
+    "is_demo": true
+  },
+  {
+    "id": "job_110",
+    "title": "物业项目助理",
+    "company": "北海演示企业110（虚构）",
+    "city": "北海市银海区",
+    "category": "物业安保",
+    "salary_min": 4000,
+    "salary_max": 6000,
+    "description": "协助项目负责人整理运营报表、安排会议并跟进各类服务事项。",
+    "requirements": [
+      "组织协调能力良好",
+      "熟悉办公软件",
+      "具备服务意识"
+    ],
+    "benefits": [
+      "岗前培训",
+      "工作用品按岗位安排提供",
+      "排班休息以项目安排为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_111",
+    "title": "新媒体运营专员",
+    "company": "北海演示企业111（虚构）",
+    "city": "北海市铁山港区",
+    "category": "市场新媒体",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "description": "负责新媒体账号内容规划、日常发布、互动维护和数据复盘。",
+    "requirements": [
+      "文字表达能力良好",
+      "熟悉主流内容平台",
+      "能跟踪基础数据"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_112",
+    "title": "短视频运营",
+    "company": "北海演示企业112（虚构）",
+    "city": "北海市合浦县",
+    "category": "市场新媒体",
+    "salary_min": 4500,
+    "salary_max": 8000,
+    "description": "策划短视频选题，协同拍摄剪辑并跟踪视频表现。",
+    "requirements": [
+      "具备内容策划能力",
+      "理解短视频内容形式",
+      "有作品案例者优先"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_113",
+    "title": "文案策划",
+    "company": "北海演示企业113（虚构）",
+    "city": "北海市海城区",
+    "category": "市场新媒体",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "description": "撰写活动文案、产品介绍和宣传材料，配合业务需求调整内容。",
+    "requirements": [
+      "文字功底较好",
+      "具备信息整理能力",
+      "能按时完成稿件"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_114",
+    "title": "市场推广专员",
+    "company": "北海演示企业114（虚构）",
+    "city": "北海市银海区",
+    "category": "市场新媒体",
+    "salary_min": 4000,
+    "salary_max": 7500,
+    "description": "协助制定推广计划、协调宣传物料并跟进活动效果。",
+    "requirements": [
+      "执行力较强",
+      "沟通协调顺畅",
+      "具备基础数据意识"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_115",
+    "title": "品牌助理",
+    "company": "北海演示企业115（虚构）",
+    "city": "北海市铁山港区",
+    "category": "市场新媒体",
+    "salary_min": 3800,
+    "salary_max": 6000,
+    "description": "协助维护品牌资料、整理市场信息并支持品牌活动执行。",
+    "requirements": [
+      "资料整理能力好",
+      "具备审美和文字表达能力",
+      "有责任心"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_116",
+    "title": "直播运营助理",
+    "company": "北海演示企业116（虚构）",
+    "city": "北海市合浦县",
+    "category": "市场新媒体",
+    "salary_min": 3500,
+    "salary_max": 6500,
+    "description": "协助直播排期、商品信息整理、场控准备和直播数据记录。",
+    "requirements": [
+      "熟悉直播平台基础操作",
+      "反应及时",
+      "能配合活动排期"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_117",
+    "title": "市场调研专员",
+    "company": "北海演示企业117（虚构）",
+    "city": "北海市海城区",
+    "category": "市场新媒体",
+    "salary_min": 4000,
+    "salary_max": 7000,
+    "description": "收集行业和消费者信息，整理问卷或访谈结果并形成摘要。",
+    "requirements": [
+      "信息检索能力较好",
+      "具备基础数据整理能力",
+      "书面表达清晰"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_118",
+    "title": "广告投放助理",
+    "company": "北海演示企业118（虚构）",
+    "city": "北海市银海区",
+    "category": "市场新媒体",
+    "salary_min": 4500,
+    "salary_max": 7500,
+    "description": "协助配置广告计划、整理投放数据并跟踪素材效果。",
+    "requirements": [
+      "对数字敏感",
+      "熟练使用表格",
+      "有线上推广经验者优先"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_119",
+    "title": "活动策划专员",
+    "company": "北海演示企业119（虚构）",
+    "city": "北海市铁山港区",
+    "category": "市场新媒体",
+    "salary_min": 4000,
+    "salary_max": 7500,
+    "description": "策划并执行品牌活动，管理活动流程、供应商沟通和复盘材料。",
+    "requirements": [
+      "组织能力强",
+      "表达沟通良好",
+      "可适应活动节点工作"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "1年以上",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  },
+  {
+    "id": "job_120",
+    "title": "本地生活内容编辑",
+    "company": "北海演示企业120（虚构）",
+    "city": "北海市合浦县",
+    "category": "市场新媒体",
+    "salary_min": 3500,
+    "salary_max": 6000,
+    "description": "整理本地生活选题，编辑商家和活动相关内容并核对信息。",
+    "requirements": [
+      "文字表达清楚",
+      "对本地生活内容有兴趣",
+      "具备信息核验意识"
+    ],
+    "benefits": [
+      "内容或业务培训",
+      "项目实践机会",
+      "福利以演示设定为准"
+    ],
+    "experience_requirement": "经验不限",
+    "education_requirement": "大专及以上",
+    "is_demo": true
+  }
+]

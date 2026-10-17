@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>求职 AI</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+  <div id="app" class="page-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">CAREER ASSISTANT</p>
+        <h1>求职 AI</h1>
+        <p class="subtitle">结合你的经历，找到更适合的下一份工作</p>
+      </div>
+      <span class="demo-badge">演示数据</span>
+    </header>
+    <main class="workspace">
+
+      <!-- 简历选择 -->
+      <aside class="sidebar panel">
+        <div class="section-heading">
+          <div><p class="eyebrow">STEP 01</p><h2>选择求职者</h2></div>
+          <span class="status-dot" :class="{ ready: selectedResume }"></span>
+        </div>
+        <p class="helper-text">选择一份示例简历，AI 会据此理解你的职业背景。</p>
+        <div v-if="loadingResumes" class="muted">正在加载简历...</div>
+        <div v-else class="resume-list">
+          <div v-for="resume in resumes" :key="resume.id" class="resume-card-wrap">
+            <button class="resume-card"
+              :class="{ selected: selectedResume && selectedResume.id === resume.id }"
+              @click="selectResume(resume)">
+              <span class="avatar">{{ resume.name.slice(0, 1) }}</span>
+              <span class="resume-info">
+                <strong>{{ resume.name }}</strong>
+                <small>{{ resume.education }} · {{ resume.years_of_experience }} 年经验</small>
+                <small>{{ resume.skills.slice(0, 3).join(' · ') }}</small>
+              </span>
+              <span class="checkmark">&#10003;</span>
+            </button>
+            <button class="resume-detail-btn" @click.stop="viewResume(resume)">查看简历</button>
+          </div>
+        </div>
+        <p v-if="resumeError" class="error-text">{{ resumeError }}</p>
+      </aside>
+
+      <!-- 聊天区（含内联岗位卡片） -->
+      <section class="chat-panel panel">
+        <div class="chat-header">
+          <div><p class="eyebrow">STEP 02 · CHAT</p><h2>和求职顾问聊聊</h2></div>
+          <span v-if="sessionId" class="session-label">会话已连接</span>
+        </div>
+
+        <div ref="messageList" class="message-list">
+          <div v-if="messages.length === 0" class="welcome-card">
+            <div class="welcome-icon">&#10022;</div>
+            <h3>你好，我是你的求职顾问</h3>
+            <p>先选择一份简历，然后告诉我你想找什么样的工作。我会结合你的经历，帮你筛选演示岗位。</p>
+            <div class="prompt-chips">
+              <button @click="useSuggestion('我想找一份适合我的工作')">帮我找适合的工作</button>
+              <button @click="useSuggestion('我想在北海找运营相关的工作')">找北海的运营工作</button>
+              <button @click="useSuggestion('我有 Python 开发经验，想找技术岗')">Python 开发岗位</button>
+            </div>
+          </div>
+
+          <div v-for="(msg, i) in messages" :key="i" class="msg-group">
+            <div class="message-row" :class="msg.role">
+              <div class="message-bubble">{{ msg.content }}</div>
+            </div>
+            <div v-if="msg.role === 'assistant' && msg.jobs && msg.jobs.length" class="inline-jobs">
+              <div v-for="(job, ji) in msg.jobs" :key="job.id || ji" class="job-row">
+                <div class="job-row-left">
+                  <div class="job-row-title">
+                    <h3>{{ job.title }}</h3>
+                    <span class="job-row-salary">{{ Math.round(job.salary_min / 1000) }}–{{ Math.round(job.salary_max / 1000) }}K</span>
+                  </div>
+                  <p class="job-row-meta">
+                    <span>{{ job.company }}</span>
+                    <span v-if="job.city">{{ job.city }}</span>
+                    <span v-if="job.experience_requirement && job.experience_requirement !== '不限'">{{ job.experience_requirement }}</span>
+                    <span v-if="job.education_requirement && job.education_requirement !== '不限'">{{ job.education_requirement }}</span>
+                  </p>
+                  <div v-if="job.requirements && job.requirements.length" class="job-row-tags">
+                    <span v-for="(tag, ti) in job.requirements.slice(0, 3)" :key="ti">{{ tag }}</span>
+                  </div>
+                </div>
+                <div class="job-row-action">
+                  <button class="job-detail-btn" @click="viewJob(job)">查看详情</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div v-if="loadingChat" class="message-row assistant">
+            <div class="message-bubble typing"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+
+        <form class="composer" @submit.prevent="sendMessage">
+          <textarea v-model="draft" :disabled="!sessionId || loadingChat"
+            :placeholder="sessionId ? '例如：我想在北海找一份运营工作，期望薪资 5000 元以上' : '请先选择左侧的求职者简历'"
+            rows="2" @keydown.enter.exact.prevent="sendMessage"></textarea>
+          <button class="send-button" type="submit" :disabled="!canSend">
+            <span>{{ loadingChat ? '思考中' : '发送' }}</span>
+          </button>
+        </form>
+        <p v-if="chatError" class="chat-error">{{ chatError }}</p>
+        <p class="composer-hint">AI 生成内容仅供求职参考 · 岗位信息均为演示数据</p>
+      </section>
+
+    </main>
+
+    <!-- 岗位详情浮窗 -->
+    <div v-if="jobModal" class="modal-overlay" @click.self="jobModal = null">
+      <div class="modal-panel">
+        <div class="modal-header">
+          <div>
+            <p class="eyebrow">{{ jobModal.category }}</p>
+            <h2>{{ jobModal.title }}</h2>
+          </div>
+          <button class="modal-close" @click="jobModal = null">&#10005;</button>
+        </div>
+        <div class="modal-body">
+          <div class="job-detail">
+            <div class="job-detail-meta">
+              <span class="job-detail-salary">{{ jobModal.salary_min / 1000 }}–{{ jobModal.salary_max / 1000 }}K / 月</span>
+              <span class="job-detail-tag">{{ jobModal.company }}</span>
+              <span class="job-detail-tag">{{ jobModal.city }}</span>
+              <span v-if="jobModal.experience_requirement !== '不限'" class="job-detail-tag">{{ jobModal.experience_requirement }}</span>
+              <span v-if="jobModal.education_requirement !== '不限'" class="job-detail-tag">{{ jobModal.education_requirement }}</span>
+              <span class="demo-tag">演示数据</span>
+            </div>
+            <div class="job-detail-section">
+              <p class="job-detail-label">岗位描述</p>
+              <p class="job-detail-text">{{ jobModal.description }}</p>
+            </div>
+            <div v-if="jobModal.requirements && jobModal.requirements.length" class="job-detail-section">
+              <p class="job-detail-label">任职要求</p>
+              <ul class="job-detail-list">
+                <li v-for="(req, ri) in jobModal.requirements" :key="ri">{{ req }}</li>
+              </ul>
+            </div>
+            <div v-if="jobModal.benefits && jobModal.benefits.length" class="job-detail-section">
+              <p class="job-detail-label">福利待遇</p>
+              <div class="job-detail-tags">
+                <span v-for="(b, bi) in jobModal.benefits" :key="bi">{{ b }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 简历详情浮窗 -->
+    <div v-if="resumeModal" class="modal-overlay" @click.self="resumeModal = null">
+      <div class="modal-panel">
+        <div class="modal-header">
+          <div>
+            <p class="eyebrow">RESUME</p>
+            <h2>{{ resumeModal.name }} 的简历</h2>
+          </div>
+          <button class="modal-close" @click="resumeModal = null">&#10005;</button>
+        </div>
+        <div class="modal-body">
+          <div class="resume-detail">
+            <div class="resume-detail-row">
+              <span class="resume-detail-label">学历</span>
+              <span>{{ resumeModal.education }}</span>
+            </div>
+            <div class="resume-detail-row">
+              <span class="resume-detail-label">工作年限</span>
+              <span>{{ resumeModal.years_of_experience }} 年</span>
+            </div>
+            <div class="resume-detail-row">
+              <span class="resume-detail-label">技能</span>
+              <span>{{ resumeModal.skills.join('、') }}</span>
+            </div>
+            <div v-if="resumeModal.career_summary" class="resume-detail-row">
+              <span class="resume-detail-label">经历概述</span>
+              <span>{{ resumeModal.career_summary }}</span>
+            </div>
+            <div v-if="resumeModal.work_experience && resumeModal.work_experience.length" class="resume-detail-section">
+              <p class="resume-detail-label">工作经历</p>
+              <div v-for="(exp, ei) in resumeModal.work_experience" :key="ei" class="exp-item">
+                <div class="exp-header">
+                  <strong>{{ exp.position }}</strong>
+                  <span class="exp-company">{{ exp.company }}</span>
+                  <span class="exp-duration">{{ exp.duration }}</span>
+                </div>
+                <ul v-if="exp.responsibilities && exp.responsibilities.length" class="exp-list">
+                  <li v-for="(r, ri) in exp.responsibilities" :key="ri">{{ r }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 演示岗位浮窗触发按钮 -->
+    <div class="browse-bar">
+      <button class="browse-btn" @click="showJobsModal = true">
+        查看全部演示岗位数据
+        <span v-if="allJobs.length" class="browse-count">{{ allJobs.length }}</span>
+      </button>
+    </div>
+
+    <!-- 演示岗位浮窗 -->
+    <div v-if="showJobsModal" class="modal-overlay" @click.self="showJobsModal = false">
+      <div class="modal-panel">
+        <div class="modal-header">
+          <div>
+            <p class="eyebrow">ALL JOBS</p>
+            <h2>演示岗位数据</h2>
+          </div>
+          <button class="modal-close" @click="showJobsModal = false">&#10005;</button>
+        </div>
+        <div class="modal-body">
+          <div v-if="loadingAllJobs" class="muted" style="padding:20px">加载中...</div>
+          <div v-else class="jobs-browse-grid">
+            <article v-for="job in allJobs" :key="job.id" class="job-card">
+              <div class="job-card-top">
+                <span class="job-category">{{ job.category }}</span>
+                <span class="demo-tag">演示</span>
+              </div>
+              <h3>{{ job.title }}</h3>
+              <p class="company">{{ job.company }}</p>
+              <p class="job-meta">{{ job.city }} · {{ job.salary_min }}-{{ job.salary_max }} 元/月</p>
+              <div class="job-reqs">
+                <span v-if="job.experience_requirement && job.experience_requirement !== '不限'">{{ job.experience_requirement }}</span>
+                <span v-if="job.education_requirement && job.education_requirement !== '不限'">{{ job.education_requirement }}</span>
+              </div>
+              <p class="job-description">{{ job.description }}</p>
+              <div v-if="job.requirements && job.requirements.length" class="tags">
+                <span v-for="tag in job.requirements.slice(0,3)" :key="tag">{{ tag }}</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
